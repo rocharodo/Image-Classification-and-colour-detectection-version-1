@@ -9,6 +9,7 @@
 <li><a href="#Modelling">Modelling</a></li>
 <li><a href="#Evaluation">Evaluation</a></li>
 <li><a href="#Deployment">Deployment</a></li>
+<li><a href="#Executive">Executive Summary</a></li>
 </ul>
 </div>
 <div id="Objective">
@@ -162,7 +163,7 @@ Data augmentation techniques: New images will be created by modifying existing o
 </div>
 
 <div id="Deployment">
-<h1>Deployment</h1>
+<h1>6. Deployment</h1>
 <p>The image classification model is trained on the entire training dataset to obtain distinct categories, which are subsequently saved for future utilisation.</p>
 <p>When a new image is received, the trained model is loaded, and the class to which the garment belongs is accurately determined. This class label is then stored for use in the subsequent step of the recommendation process.</p>
 <p>Concurrently, the colour classification model is executed on the entire training dataset, resulting in the creation of a comprehensive CSV file. This file contains essential information, including the image name, the corresponding class label, and the four predominant colours that characterise each image.</p>
