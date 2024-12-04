@@ -171,7 +171,7 @@ Data augmentation techniques: New images will be created by modifying existing o
 <p>Once the images with colours most similar to the newly received image are obtained, they are systematically sorted by class, with the first class being the one obtained using the image classification model. This sorting process facilitates the presentation of the most relevant recommendations.</p>
 <p>Through this integrated approach, a robust recommendation model has been successfully implemented, leveraging the strengths of both the image classification model and the colour detection model to provide accurate and relevant recommendations.</p>
 <p>An example of the final result is as follows:</p>
-<img width="900" src="images/recomendaciones.png" />
+<img width="900" src="images/recomendaciones.jpg" />
 </div>
 
 <div id="Executive">
